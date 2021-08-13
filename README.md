@@ -6,10 +6,9 @@ This is a basic implementation of the [Battlesnake API](https://docs.battlesnake
 
 ## Technologies Used
 
-* [TypeScript](https://www.typescriptlang.org/)
-* [Node.js](https://nodejs.org/en/)
-* [Express](https://expressjs.com/)
-
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
 
 ## Quickstart
 
@@ -17,7 +16,7 @@ The [Quick Start Coding Guide](https://docs.battlesnake.com/guides/getting-start
 
 ### Prerequisites
 
-* A free [Battlesnake Account](https://play.battlesnake.com/?utm_source=github&utm_medium=readme&utm_campaign=typescript_starter&utm_content=homepage)
+- A free [Battlesnake Account](https://play.battlesnake.com/?utm_source=github&utm_medium=readme&utm_campaign=typescript_starter&utm_content=homepage)
 
 ---
 
@@ -27,13 +26,14 @@ Locate the `info` function inside [logic.ts](src/logic.ts#L3). Inside that funct
 
 ```typescript
 const response: InfoResponse = {
-    apiversion: "1",
-    author: "",
-    color: "#888888",
-    head: "default",
-    tail: "default"
-}
+  apiversion: "1",
+  author: "",
+  color: "#888888",
+  head: "default",
+  tail: "default",
+};
 ```
+
 This function is called by the game engine periodically to make sure your Battlesnake is healthy, responding correctly, and to determine how your Battlesnake will appear on the game board. See [Battlesnake Personalization](https://docs.battlesnake.com/references/personalization) for how to customize your Battlesnake's appearance using these values.
 
 Whenever you update these values, go to the page for your Battlesnake and select 'Refresh Metadata' from the option menu. This will update your Battlesnake to use your latest configuration and those changes should be reflected in the UI as well as any new games created.
@@ -60,6 +60,7 @@ npm start
 ## Running Tests
 
 This Starter Project comes with a very simple test suite for you to expand! Located in `test/logic.test.ts` you can run them using the following command:
+
 ```shell
 npm test
 ```
@@ -93,7 +94,6 @@ You can also join the Battlesnake Developer Community on [Discord](https://play.
 Check out live Battlesnake events on [Twitch](https://www.twitch.tv/battlesnakeofficial) and see what is happening when on the [Calendar.](https://play.battlesnake.com/calendar?utm_source=github&utm_medium=readme&utm_campaign=typescript_starter&utm_content=calendar)
 
 Want to contribute to Battlesnake? We have a number of open-source codebases and would love for you to get involved! Check out our page on [Contributing.](https://docs.battlesnake.com/guides/contributing)
-
 
 ## Feedback
 
